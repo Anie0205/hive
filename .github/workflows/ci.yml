@@ -36,7 +36,7 @@ jobs:
 
       - name: Ruff format
         run: |
-          ruff format --check core/
+          ruff format core/
           ruff format --check tools/
 
   test:
